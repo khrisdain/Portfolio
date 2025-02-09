@@ -1,0 +1,76 @@
+.job-profile-cont:before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 4px;
+    background: #02325f;
+    top: 20px;
+    bottom: 20px;
+    margin-left: 39px;
+}
+.job-profile-cont .job-profile {
+    position: relative;
+    margin-top: 5px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    clear: both;
+}
+.job-profile-cont .job-profile .job-profile-inner {
+    position: relative;
+    margin-left: 0px;
+    width: 100%;
+}
+.job-profile-cont .job-profile .job-profile-inner .timeline-icon {
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: #02325f;
+    border-radius: 50%;
+    text-align: center;
+    box-shadow: 0 0 0 5px #f2f3f7;
+    line-height: 15px;
+    float: left;
+    margin: 5px 0px 0px;
+}
+.job-profile-cont .job-profile .job-profile-inner .timeline-icon i{
+    color: #fff;
+    font-size: .65rem;
+}
+.job-profile-cont .job-profile .job-profile-inner .timeline-label{
+    position: relative;
+    background: #fff;
+    padding: 1rem;
+    margin-left: 40px;
+    background-clip: padding-box;
+}
+.job-profile-cont .job-profile .job-profile-inner .timeline-label:after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 9px 9px 9px 0;
+    border-color: transparent #fff transparent transparent;
+    left: 0;
+    top: 10px;
+    margin-left: -9px;
+}
+.job-profile-cont .job-profile .job-profile-inner .timeline-label h1 {
+    font-size: 1.4rem;
+}
+.job-profile-cont .job-profile .job-profile-inner .timeline-label h2 {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin: 0 0 20px 0 !important;
+}
+.job-profile-cont ul{
+    list-style: circle !important;
+}
+.job-profile-cont .job-profile .job-profile-inner .timeline-icon.color-none {
+    background: #02325f;
+    width: 20px;
+    height: 20px;
+    margin-left: 1px;
+    margin-top: 5px;
+}
